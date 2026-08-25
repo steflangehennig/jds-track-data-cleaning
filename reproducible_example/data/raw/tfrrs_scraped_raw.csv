@@ -1,0 +1,17 @@
+Date,Meet,State,Name,Year,Event,Prelim,Final,Best_Mark,Best_Mark_type,Place,Gender,Team,Athlete_ID
+5/3/2020,Southwest Invitational,TX,Ben Carter,FR-1,400 Meters,--,49.10,49.10,distance,4,Men,Lonestar State University,https://tfrrs.example/athletes/100001/Lonestar_State/Ben_Carter.html
+5/4/2022,Southwest Invitational,TX,Mary Reynolds,SO-2,200 Meters,--,24.98,24.98,distance,2,Women,Lonestar State University,https://tfrrs.example/athletes/100002/Lonestar_State/Mary_Reynolds.html
+4/9/2015,Pacific Coast Classic,WA,Chris Nguyen,SR-4,400 Meters,--,50.20,50.20,distance,6,Men,Evergreen A&M,https://tfrrs.example/athletes/100003/Evergreen_AM/Chris_Nguyen.html
+5/3/2020,Southwest Invitational,TX,Alicia Moreno,JR-3,100 Meters,--,11.85,11.85,distance,1,Women,Lonestar State University,https://tfrrs.example/athletes/100004/Lonestar_State/Alicia_Moreno.html
+5/3/2020,Southwest Invitational,TX,Derek Hayes,FR-1,100 M,--,12.40,12.40,distance,5,Men,Lonestar State University,https://tfrrs.example/athletes/100005/Lonestar_State/Derek_Hayes.html
+5/4/2022,Southwest Invitational,TX,Trevor Wu,SO-2,500 Meters,--,68.40,68.40,distance,3,Men,Lonestar State University,https://tfrrs.example/athletes/100006/Lonestar_State/Trevor_Wu.html
+5/4/2022,Southwest Invitational,TX,Malik Owens,JR-3,Triple Jump,,,15.20,distance,1,Men,Lonestar State University,https://tfrrs.example/athletes/100007/Lonestar_State/Malik_Owens.html
+4/19/2021,Midwest Open,IL,Ian Castillo,SO-2,High Jump,,,1.98,distance,2,Men,Prairieland College,https://tfrrs.example/athletes/100008/Prairieland/Ian_Castillo.html
+4/19/2021,Midwest Open,IL,Sofia Blackwell,JR-3,"10,000 Meters",--,34:12.5,34:12.5,distance,1,Women,Prairieland College,https://tfrrs.example/athletes/100009/Prairieland/Sofia_Blackwell.html
+4/19/2021,Midwest Open,IL,Prairieland College,,4x400 Relay,--,3:22.10,3:22.10,distance,1,Mixed,Prairieland College,
+4/19/2021,Midwest Open,IL,Diego Ramos,,300 Meters,--,DNS,DNS,distance,,Men,Prairieland College,https://tfrrs.example/athletes/100010/Prairieland/Diego_Ramos.html
+5/3/2020,Southwest Invitational,TX,Grace Kim,,Long Jump,,,FOUL,distance,,Women,Lonestar State University,https://tfrrs.example/athletes/100011/Lonestar_State/Grace_Kim.html
+5/4/2022,Southwest Invitational,TX,Nina Patel,SR-4,55 Meters,--,7.10,7.10,distance,3,Women,Lonestar State University,https://tfrrs.example/athletes/100012/Lonestar_State/Nina_Patel.html
+4/19/2021,Midwest Open,IL,Logan Brooks,JR-3,800 Meters,--,1:52.10,1:52.10,distance,2,Men,Prairieland College,https://tfrrs.example/athletes/100013/Prairieland/Logan_Brooks.html
+5/4/2022,Southwest Invitational,TX,Ethan Alvarado,SO-2,200 Meters,--,21.90,21.90,distance,1,Men,Lonestar State University,https://tfrrs.example/athletes/100014/Lonestar_State/Ethan_Alvarado.html
+4/19/2021,Midwest Open,IL,Grace Odom,FR-1,Mile,--,4:52.30,4:52.30,distance,1,Women,Prairieland College,https://tfrrs.example/athletes/100015/Prairieland/Grace_Odom.html
