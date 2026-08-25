@@ -1,19 +1,19 @@
-# Reproducible Example for the Journal of Data Science
-## Cleaning, Harmonization, and Record Linkage
+# Reproduction Repository for the Journal of Data Science
+## cleaning, harmonization, and record linkage for track and field data
 
-This is a small, self-contained, executable example of the data cleaning,
+This is repo contains a executable example of the data cleaning,
 harmonization, and record-linkage workflow described in Section 4
 ("Data Cleaning") and Appendix Algorithms 1-2 of the manuscript
 *"Ethical and Technical Lessons from Harmonizing Unstructured Athletic
 Performance Records."* It was prepared in response to the reviewer request
 for "a small, self-contained example, using representative or synthetic
 data, with executable code covering the main cleaning, harmonization, and,
-if applicable, linkage steps."
+if applicable, linkage steps." It also includes the prompt (`prompt.md`) used 
+to initially clean the data using ChatGPT.
 
-## Why synthetic data and not the real scraped data
+## Why synthetic data
 
-The full datasets described in the manuscript are not shared for two
-independent reasons:
+The full datasets described in the manuscript are not shared for two reasons:
 
 1. **Human-subjects constraints.** The MileSplit and Athletic.net records
    contain the names, school affiliations, and hometowns of minors. Our use
@@ -24,15 +24,14 @@ independent reasons:
    was granted by FloSports for this research project specifically; it does
    not extend to republishing the raw or lightly-cleaned corpus.
 
-What we can share, and what this folder provides, is executable code that
-reproduces every category of the structural problems described in Section 4 -
-column-shift artifacts, inconsistent grade encodings, non-numeric
-performance annotations, mixed measurement units, messy event-name
-strings, and cross-source name variation - running against small,
-fabricated data (invented names, schools, and times). No row in
+What we can share here is executable code that reproduces every category of 
+the structural problems described in Section 4 -column-shift artifacts, 
+inconsistent grade encodings, non-numeric performance annotations, mixed measurement 
+units, messy event-name strings, and cross-source name variation - running against 
+small, fabricated data (invented names, schools, and times). No row in
 `data/raw/` corresponds to a real person.
 
-One additional scoping note: the manuscript's very first extraction step
+One additional note: the manuscript's very first extraction step
 (Section 4, third paragraph) used the OpenAI API to convert heterogeneous
 raw `.txt` meet results into an initial CSV, at a cost of roughly 40 hours
 of compute and $500 in API fees over ~850,000 records. That step depends on
