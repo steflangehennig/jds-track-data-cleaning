@@ -122,13 +122,3 @@ prints a running log and produces:
 - `data/processed/linked_athletes.csv` - 2 accepted links: Benjamin
   Carter/Ben Carter and Mary-Kate Reynolds/Mary Reynolds.
 
-
-## Relationship to the full production pipeline
-
-The functions in `scripts/` are simplified, de-identified re-implementations
-of the internal cleaning notebooks used on the full dataset (grade
-normalization, event taxonomy, the TFRRS Best_Mark_type fix, and the
-MileSplit column-shift repair), rewritten to run standalone against small
-synthetic inputs rather than the actual files. The overall sequence of operations, 
-the specific data problems addressed, and the linkage formula are unchanged from 
-what was actually run.
